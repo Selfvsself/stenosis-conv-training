@@ -1,0 +1,9 @@
+pandas
+tensorflow==2.10.1
+scipy
+resource
+numpy
+image
+keras_cv
+pydot
+Pillow~=9.3.0
