@@ -57,7 +57,7 @@ def my_accuracy_function(model1):
 
 if __name__ == '__main__':
     print("Num GPUs Available: ", len(tensorflow.config.list_physical_devices('GPU')))
-    model = load_model('models/conv_next/04/model_best.06-0.0590.keras')
+    model = load_model('models/resnet_v2/01/model_best.24-0.0463.keras')
     # print(model.summary())
 
     result = my_accuracy_function(model)
